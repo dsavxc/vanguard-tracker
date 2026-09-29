@@ -4,7 +4,7 @@ import os
 import requests
 
 CONFIG_URL = "https://clientconfig.rpg.riotgames.com/api/v1/config/public"
-DISCORD_WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL")
+DISCORD_WEBHOOK_URL = os.environ.get("https://discord.com/api/webhooks/1554446137069535242/wANObhlvUG-cJHBWySZ0k96VB6NATkjew55cSym8urYwhhdx6W7pOLcmmdZac7toNb_5")
 VERSION_FILE = "last_vanguard_version.json"
 
 
